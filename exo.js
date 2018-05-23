@@ -418,23 +418,47 @@
 // } 
 
 
-var phrase = prompt ("dit bonjour");
-var string = "txt"
-if (phrase === "bonjour"){
-    alert("Bonjour ! Ca va ?");
+//var phrase = prompt ("dit bonjour");
+//var string = "txt"
+//if (phrase === "bonjour"){
+//  alert("Bonjour ! Ca va ?");
 
-}  var phrase = prompt("dit oui ou non");
+//}  var phrase = prompt("dit oui ou non");
 
-if (phrase === "oui"){
-    alert ("Je suis content pour toi.")
+//if (phrase === "oui"){
+//    alert ("Je suis content pour toi.")
     
-}   else if (phrase === "non"){
-        alert("dit tout a tonton chat");
-        phrase = prompt ("dit lui tes probleme")
-        if(phrase==="c'est rien"){
-        alert ("tkt la vie continue")
-        }else{
-        alert ("tu c pas parler ou quoi ??!!!!!")
-    }
-}
+//}   else if (phrase === "non"){
+//        alert("dit tout a tonton chat");
+//        phrase = prompt ("dit lui tes probleme")
+//        if(phrase==="c'est rien"){
+//        alert ("tkt la vie continue")
+//        }else{
+//        alert ("tu c pas parler ou quoi ??!!!!!")
+//    }
+//}
 
+var phrase ;
+var bot =("ça va ?")
+alert(bot);
+ phrase = prompt(" dit oui ou non")
+if (phrase === "oui") {
+    alert ("c'est cool")
+} else if (phrase === "non") {
+    alert("qu'es ce qu'il y a")
+    phrase = prompt("dit c'est rien ou autre ")
+    if (phrase = "c'est rien"){
+        alert("je ne demanderais pas plus")
+    } else {
+        alert("je suis la pour t'écouter")
+    }
+} else {
+    alert("je ne comprend pas")
+} bot = "t'a faim ?"
+alert (bot)
+phrase =prompt("dit oui ou non")
+if (phrase === "oui") {
+    alert ("c'est cool le ramadan")
+}else  {
+    alert("ok")
+    }
