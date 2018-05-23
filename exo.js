@@ -381,22 +381,60 @@
 
 
 
-var douleur = "gorge";
-var fievre = true;
-var resultat;
+// var douleur = "gorge";
+// var fievre = true;
+// var resultat;
 
-if (douleur === "abdomen"){
-    resultat = "appendicite"
-} 
+// if (douleur === "abdomen"){
+//     resultat = "appendicite"
+// } 
 
-else if (douleur === "gorge"){
-    if (fievre === true){
+// else if (douleur === "gorge"){
+//     if (fievre === true){
 
-        resultat = "rhume"
-    } 
+//         resultat = "rhume"
+//     } 
 
-    else resultat = "mal de gorge"
-    } 
-alert(resultat);
+//     else resultat = "mal de gorge"
+//     } 
+// alert(resultat);
 
+// alert("bonjour");
+
+// var nom = prompt ("ecrit ton nom");
+
+// alert ("bonjour" + nom);
+
+
+// var phrase = prompt ("");
+
+// if (phrase ==="bonjour"){
+//     alert ("bonjour a toi !!!")
+//     var phrase =prompt ("")
+// } if (phrase === "tu va bien ?"){
+//     alert("bien et toi ?") ; 
+// }  else{
+//     alert ("Désolé, je n'ai pas compris")
+// } 
+
+
+var phrase = prompt ("dit bonjour");
+var string = "txt"
+if (phrase === "bonjour"){
+    alert("Bonjour ! Ca va ?");
+
+}  var phrase = prompt("dit oui ou non");
+
+if (phrase === "oui"){
+    alert ("Je suis content pour toi.")
+    
+}   else if (phrase === "non"){
+        alert("dit tout a tonton chat");
+        phrase = prompt ("dit lui tes probleme")
+        if(phrase==="c'est rien"){
+        alert ("tkt la vie continue")
+        }else{
+        alert ("tu c pas parler ou quoi ??!!!!!")
+    }
+}
 
